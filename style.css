@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+}
+#main {
+  background-color: #DBD1B8;
+}
+h2 {
+  margin: 60px auto;
+  text-align: center;
+}
+#tribute-info {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 2.6;
+}
+li {
+  margin: 16px 0;
+}
+#title {
+  background-color: #70644A;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+#img-div {
+  padding: 10px;
+  margin: 0;
+}
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+#tribute-link {
+  text-decoration: none;
+  color: #70644A;
+}
+span {
+  font-weight: bold;
+  margin: 0 4px 0 0;
+}
+
+q, .cap{
+  text-align: left;
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+}
+#foo {
+  padding-bottom: 60px;
